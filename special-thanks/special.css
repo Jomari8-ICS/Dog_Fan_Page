@@ -1,9 +1,27 @@
-body {
-    margin: 0;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 30px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin: 20px;
+}
+
+.mainlogo img {
+  max-width: 150px; 
+  height: auto;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+.buttons button {
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
