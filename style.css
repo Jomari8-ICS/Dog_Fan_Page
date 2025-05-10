@@ -33,14 +33,29 @@ body {
   cursor: pointer;
 }
 
-  .sideinfo {
-    width: 250px;
-    float: right;
-    margin: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-  }
+.sideinfo {
+  width: 250px;
+  float: right;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.sideimage img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.sidetext p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
 
   .socialmediaposts {
     border: 2px solid #ccc;

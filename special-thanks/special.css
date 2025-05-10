@@ -32,3 +32,36 @@ body {
   color: white;
   cursor: pointer;
 }
+
+h1 {
+  text-align: center;
+  color: #d2691e;
+  margin-top: 40px;
+}
+
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.resources {
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resources h3 {
+  color: #007BFF;
+  margin-top: 20px;
+}
+
+.resources p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
