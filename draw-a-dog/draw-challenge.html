@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>I Heart Chihuahuas</title>
   <link rel="stylesheet" href="challenge.css"> 
+  <link rel="reset" href="reset.css">
 </head>
 <body>
   <div class = "header">
@@ -22,8 +23,24 @@
 
 <h1>Draw me like one of your french dogs!</h1>
 
-<h2>Rules</h2>
+<div class="flex-container">
+  <div class="title"><h1>SketchPad</h1></div>
+  <div class="content">
+      <div class="board"></div>
+      <div class="buttons">
+      <button>Black</button>
+      <button onclick ="resetBoard()">Reset</button>
+  </div>
+  <input type="text" placeholder="Size of Board" 
+  value="16" 
+  onchange="changeSize(this.value)" 
+  />
+  <button>Set Size</button>
+</div>
+</div>
 
+<div class="gamerules"></div>
+<h2>Rules</h2>
 <ol>
 <li>The Time Limit is 30 seconds! No Extra time is allowed!</li>
 <li>You will be drawing with 1 consecutive line.</li>
@@ -31,9 +48,11 @@
 <li>You must have a face, body, and tail!</li>
 <li>NO References! If you truly love your dog you must know their face!</li>
 </ol>
-
+</div>
 
 
 
 </body>
-<script src=""></script>
+<script src="challenge.js"></script>
+
+</html>
