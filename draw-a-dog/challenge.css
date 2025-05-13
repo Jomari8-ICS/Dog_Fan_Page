@@ -22,16 +22,19 @@ body {
   height: auto;
 }
 
-.buttons {
+.hbuttons {
   display: flex;
   gap: 10px; 
 }
 
-.buttons button {
-  font-size: 16px;
+.hbuttons button {
+  font-size: 18px; 
+  padding: 12px 24px; 
   background-color: #007BFF;
   color: white;
   cursor: pointer;
+  border: none;
+  border-radius: 5px; 
 }
 
 .board {

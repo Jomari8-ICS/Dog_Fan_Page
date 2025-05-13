@@ -15,7 +15,7 @@ for (let i = 0; i < amount; i++) {
 }
 }
 
-populateBoard(16);
+populateBoard(80);
 
 
 function changeSize(input) {
