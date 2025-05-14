@@ -1,3 +1,22 @@
+var timeLeft = 30;
+var elem = document.getElementById('Timer');
+var startButton = document.getElementById('startButton');
+
+startButton.addEventListener('click', function() {
+  timerId = setInterval(countdown, 1000);
+});
+
+function countdown() {
+  if (timeLeft == 0) {
+    clearInterval(timerId);
+    doSomething();
+  } else {
+    elem.innerHTML = timeLeft + ' seconds remaining';
+    timeLeft--;
+  }
+}
+
+
 function populateBoard(size){
     let board = document.querySelector(".board");
     let squares = board.querySelectorAll("div");
