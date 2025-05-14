@@ -15,7 +15,9 @@ function countdown() {
     timeLeft--;
   }
 }
-
+function doSomething() {
+ alert ('Put it Down!');
+}
 
 function populateBoard(size){
     let board = document.querySelector(".board");
