@@ -64,10 +64,6 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
-ol {
-  text-align: left;
-}
-
 .TimerChallenge {
   display: flex;
   flex-direction: column;
